@@ -1,9 +1,9 @@
 <?php
 
-$dbhost = 'localhost';
-$dbuser = 'netwerken_user_2024';
-$dbpass = 'netwerken2024!';
-$dbname = 'netwerken_2024';
+$dbhost = 'localhost:3306';
+$dbuser = 'net24yhuet';
+$dbpass = '}p@hCauYq{M0';
+$dbname = 'net24yhuet_netwerkenToets2024';
 
 $conn = new mysqli($dbhost,$dbuser,$dbpass,$dbname);
 if($conn->connect_error)
